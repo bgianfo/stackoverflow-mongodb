@@ -1,0 +1,7 @@
+
+Description: A script to import the Stack Overflow CC DataDump XML files.
+
+Just run from inside any of the site folders in the data dump, should work on any of the dumps.
+
+
+Get the dumps here: http://blog.stackoverflow.com/category/cc-wiki-dump/
