@@ -3,12 +3,12 @@
 import xml.parsers.expat
 import pymongo
 
-from pymongo import Connection
+from pymongo import MongoClient
+
+connection = MongoClient()
 
 # Each of our data files which will be used as collection names also.
 files = [ "badges", "comments", "posts", "users", "votes" ]
-
-connection = Connection()
 
 # Name our database, can change this for Server Fault/etc..
 db = connection['stackoverflow']
